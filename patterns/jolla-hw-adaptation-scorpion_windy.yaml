@@ -75,5 +75,12 @@ Requires:
 # For devices where test_gps eventually gets a fix:
 #- geoclue-provider-hybris
 
+# For mounting SD card automatically
+- sd-utils
+
+# For FM Radio
+- qt5-qtmultimedia-plugin-mediaservice-irisradio
+- jolla-mediaplayer-radio
+
 Summary: Jolla HW Adaptation scorpion_windy
 
