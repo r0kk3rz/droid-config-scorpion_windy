@@ -11,7 +11,8 @@
 
 %define pixel_ratio 1.25
 
-%define have_modem 0
+%define remove_modem 1
+%define community_adaptation 1
 
 Provides: ofono-configs
 
