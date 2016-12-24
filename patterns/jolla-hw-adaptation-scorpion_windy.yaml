@@ -57,8 +57,6 @@ Requires:
 # android diag mode only usable for certain android tools
 - usb-moded-diag-mode-android
 
-# from update13, this is needed explicitly
-- bluez-configs-sailfish
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 - rfkill
 
@@ -73,7 +71,7 @@ Requires:
 #- telepathy-ring
 
 # For devices where test_gps eventually gets a fix:
-#- geoclue-provider-hybris
+- geoclue-provider-hybris
 
 # For mounting SD card automatically
 - sd-utils
