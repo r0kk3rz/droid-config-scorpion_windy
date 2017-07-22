@@ -11,6 +11,7 @@ Requires:
 - droid-config-scorpion_windy-pulseaudio-settings
 - droid-config-scorpion_windy-policy-settings
 - droid-config-scorpion_windy-preinit-plugin
+- droid-config-scorpion_windy-bluez4
 - droid-hal-version-scorpion_windy
 
 # Hybris packages
@@ -18,11 +19,13 @@ Requires:
 - libhybris-libGLESv2
 - libhybris-libwayland-egl
 
+- qt5-plugin-generic-evdev
+
 # Sensors
 - hybris-libsensorfw-qt5
 
 - pulseaudio-modules-droid
-- pulseaudio-modules-droid-glue
+#- pulseaudio-modules-droid-glue
 
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -55,15 +58,15 @@ Requires:
 - usb-moded
 - usb-moded-defaults-android
 - usb-moded-developer-mode-android
-- usb-moded-pc-suite-mode-android
+#- usb-moded-pc-suite-mode-android
 
 # Extra useful modes not officially supported:
 # might need some configuration to get working
-- usb-moded-mass-storage-android-config
+#- usb-moded-mass-storage-android-config
 # working but careful with roaming!
-- usb-moded-connection-sharing-android-config
+#- usb-moded-connection-sharing-android-config
 # android diag mode only usable for certain android tools
-- usb-moded-diag-mode-android
+#- usb-moded-diag-mode-android
 
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 - rfkill
@@ -72,7 +75,7 @@ Requires:
 - jolla-devicelock-plugin-encsfa
 
 # Settings app needs this since update15
-- jolla-settings-layout
+#- jolla-settings-layout
 
 # For devices with working cellular modem:
 #- pattern:jolla-sailfish-cellular-apps
@@ -83,10 +86,11 @@ Requires:
 
 # For mounting SD card automatically
 - sd-utils
+#- usbstick-utils
 
 # For FM Radio
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
-#- jolla-mediaplayer-radio
+- jolla-mediaplayer-radio
 
 Summary: Jolla HW Adaptation scorpion_windy
 
