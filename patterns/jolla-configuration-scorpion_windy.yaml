@@ -7,8 +7,18 @@ Requires:
 - pattern:jolla-hw-adaptation-scorpion_windy
 - pattern:jolla-sailfish-applications
 - pattern:jolla-ui-wayland
+
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
+
+- sailfish-content-graphics-z@ICON_RES@
+- jolla-settings-accounts-extensions-3rd-party-all
+
+# For Mozilla location services (online)
+- geoclue-provider-mlsdb
+
+# Sailfish OS CSD tool for hardware testing
+- csd
 
 Summary: Jolla Configuration scorpion_windy
 

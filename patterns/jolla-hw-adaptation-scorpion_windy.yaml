@@ -4,10 +4,6 @@
 Description: Pattern with packages for scorpion_windy HW Adaptation
 Name: jolla-hw-adaptation-scorpion_windy
 Requires:
-- pattern:jolla-hw-adaptation-hybris
-- pattern:jolla-hw-adaptation-hybris-droid-vibrator
-- pattern:jolla-ui-configuration-scorpion_windy
-
 - droid-hal-scorpion_windy
 - droid-hal-scorpion_windy-img-boot
 - droid-hal-scorpion_windy-kernel-modules
@@ -17,7 +13,17 @@ Requires:
 - droid-config-scorpion_windy-preinit-plugin
 - droid-hal-version-scorpion_windy
 
+# Hybris packages
+- libhybris-libEGL
+- libhybris-libGLESv2
+- libhybris-libwayland-egl
+
+# Sensors
+- hybris-libsensorfw-qt5
+
 - pulseaudio-modules-droid
+- pulseaudio-modules-droid-glue
+
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -38,6 +44,8 @@ Requires:
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
+
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -78,7 +86,7 @@ Requires:
 
 # For FM Radio
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
-- jolla-mediaplayer-radio
+#- jolla-mediaplayer-radio
 
 Summary: Jolla HW Adaptation scorpion_windy
 
