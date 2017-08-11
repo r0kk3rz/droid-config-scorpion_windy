@@ -10,9 +10,16 @@ Requires:
 
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
+- pattern:jolla-store-applications
+
+# Jolla Store Items
+- store-client
+- jolla-settings-accounts-extensions-jolla
+
 
 - sailfish-content-graphics-z@ICON_RES@
 - jolla-settings-accounts-extensions-3rd-party-all
+- jolla-settings-system-sideloading
 
 # For Mozilla location services (online)
 - geoclue-provider-mlsdb

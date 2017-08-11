@@ -21,11 +21,18 @@ Requires:
 
 - qt5-plugin-generic-evdev
 
+ # bluetooth tools
+#- bluez5-tools
+
+# Vibra
+- ngfd-plugin-droid-vibrator
+- qt5-feedback-haptics-droid-vibrator
+
 # Sensors
 - hybris-libsensorfw-qt5
 
 - pulseaudio-modules-droid
-#- pulseaudio-modules-droid-glue
+- pulseaudio-modules-droid-glue
 
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -34,12 +41,6 @@ Requires:
 - qt5-qtwayland-wayland_egl
 - qt5-qpa-hwcomposer-plugin
 - qtscenegraph-adaptation
-
-# GStreamer v0.10 multimedia support is being deprecated
-#- gstreamer0.10-droidcamsrc
-#- gstreamer0.10-omx
-#- gstreamer0.10-droideglsink
-#- nemo-qtmultimedia-plugins-gstvideotexturebackend
 
 # Add GStreamer v1.0 as standard
 - gstreamer1.0
@@ -77,20 +78,14 @@ Requires:
 # Settings app needs this since update15
 #- jolla-settings-layout
 
-# For devices with working cellular modem:
-#- pattern:jolla-sailfish-cellular-apps
-#- telepathy-ring
-
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
 
 # For mounting SD card automatically
 - sd-utils
-#- usbstick-utils
 
 # For FM Radio
-- qt5-qtmultimedia-plugin-mediaservice-irisradio
-- jolla-mediaplayer-radio
+#- jolla-mediaplayer-radio
 
 Summary: Jolla HW Adaptation scorpion_windy
 
