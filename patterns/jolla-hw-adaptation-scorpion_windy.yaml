@@ -11,7 +11,7 @@ Requires:
 - droid-config-scorpion_windy-pulseaudio-settings
 - droid-config-scorpion_windy-policy-settings
 - droid-config-scorpion_windy-preinit-plugin
-- droid-config-scorpion_windy-bluez4
+- droid-config-scorpion_windy-bluez5
 - droid-hal-version-scorpion_windy
 
 # Hybris packages
