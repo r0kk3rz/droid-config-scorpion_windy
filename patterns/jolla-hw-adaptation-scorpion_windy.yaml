@@ -22,7 +22,8 @@ Requires:
 - qt5-plugin-generic-evdev
 
  # bluetooth tools
-#- bluez5-tools
+- bluez5-tools
+- bluetooth-rfkill-event-hciattach
 
 # Vibra
 - ngfd-plugin-droid-vibrator
