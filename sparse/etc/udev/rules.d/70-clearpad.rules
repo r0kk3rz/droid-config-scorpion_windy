@@ -1,2 +1,0 @@
-ATTRS{name}=="clearpad", SYMLINK+="clearpad"
-
