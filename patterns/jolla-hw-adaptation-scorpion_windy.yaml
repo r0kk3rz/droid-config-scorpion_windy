@@ -13,6 +13,7 @@ Requires:
 - droid-config-scorpion_windy-preinit-plugin
 - droid-config-scorpion_windy-bluez5
 - droid-hal-version-scorpion_windy
+- droid-config-scorpion_windy-flashing
 
 # Hybris packages
 - libhybris-libEGL
