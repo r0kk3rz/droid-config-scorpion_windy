@@ -1,0 +1,32 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for scorpion_windy configurations
+Name: jolla-configuration-scorpion
+Requires:
+- pattern:jolla-hw-adaptation-scorpion_windy
+- pattern:jolla-sailfish-applications
+- pattern:jolla-ui-wayland
+- patterns-sailfish-cellular-apps
+
+# Early stages of porting benefit from these:
+- pattern:sailfish-porter-tools
+- pattern:jolla-store-applications
+
+# Jolla Store Items
+- store-client
+- jolla-settings-accounts-extensions-jolla
+
+
+- sailfish-content-graphics-z@ICON_RES@
+- jolla-settings-accounts-extensions-3rd-party-all
+- jolla-settings-system-sideloading
+
+# For Mozilla location services (online)
+- geoclue-provider-mlsdb
+
+# Sailfish OS CSD tool for hardware testing
+- csd
+
+Summary: Jolla Configuration scorpion_windy
+
