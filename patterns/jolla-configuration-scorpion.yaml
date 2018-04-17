@@ -1,12 +1,13 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for scorpion_windy configurations
-Name: jolla-configuration-scorpion_windy
+Description: Pattern with packages for scorpion configurations
+Name: jolla-configuration-scorpion
 Requires:
-- pattern:jolla-hw-adaptation-scorpion_windy
+- pattern:jolla-hw-adaptation-scorpion
 - patterns-sailfish-applications
 - patterns-sailfish-ui
+- patterns-sailfish-cellular-apps
 
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
