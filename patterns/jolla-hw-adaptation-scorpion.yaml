@@ -1,7 +1,7 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for scorpion_windy HW Adaptation
+Description: Pattern with packages for scorpion HW Adaptation
 Name: jolla-hw-adaptation-scorpion
 Requires:
 - droid-hal-scorpion
@@ -89,5 +89,5 @@ Requires:
 # For FM Radio
 #- jolla-mediaplayer-radio
 
-Summary: Jolla HW Adaptation scorpion_windy
+Summary: Jolla HW Adaptation scorpion
 
