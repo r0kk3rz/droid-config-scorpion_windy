@@ -4,25 +4,9 @@
 Description: Pattern with packages for scorpion configurations
 Name: jolla-configuration-scorpion
 Requires:
+- pattern:jolla-configuration-shinano
 - pattern:jolla-hw-adaptation-scorpion
-- patterns-sailfish-applications
-- patterns-sailfish-ui
 - patterns-sailfish-cellular-apps
-
-# Early stages of porting benefit from these:
-- pattern:sailfish-porter-tools
-
-# Jolla Store Items
-- patterns-sailfish-consumer-generic
-
-- sailfish-content-graphics-z@ICON_RES@
-- jolla-settings-accounts-extensions-3rd-party-all
-
-# For Mozilla location services (online)
-- geoclue-provider-mlsdb
-
-# Sailfish OS CSD tool for hardware testing
-- csd
 
 Summary: Jolla Configuration scorpion
 

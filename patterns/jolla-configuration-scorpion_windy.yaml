@@ -4,24 +4,8 @@
 Description: Pattern with packages for scorpion_windy configurations
 Name: jolla-configuration-scorpion_windy
 Requires:
+- pattern:jolla-configuration-shinano
 - pattern:jolla-hw-adaptation-scorpion_windy
-- patterns-sailfish-applications
-- patterns-sailfish-ui
-
-# Early stages of porting benefit from these:
-- pattern:sailfish-porter-tools
-
-# Jolla Store Items
-- patterns-sailfish-consumer-generic
-
-- sailfish-content-graphics-z@ICON_RES@
-- jolla-settings-accounts-extensions-3rd-party-all
-
-# For Mozilla location services (online)
-- geoclue-provider-mlsdb
-
-# Sailfish OS CSD tool for hardware testing
-- csd
 
 Summary: Jolla Configuration scorpion_windy
 
