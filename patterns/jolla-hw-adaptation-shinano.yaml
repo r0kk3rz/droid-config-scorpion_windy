@@ -14,8 +14,8 @@ Requires:
 - bluetooth-rfkill-event-hciattach
 
 # Vibra
-- ngfd-plugin-droid-vibrator
-- qt5-feedback-haptics-droid-vibrator
+- ngfd-plugin-native-vibrator
+- qt5-feedback-haptics-native-vibrator
 
 # Sensors
 - hybris-libsensorfw-qt5
